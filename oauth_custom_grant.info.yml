@@ -1,0 +1,7 @@
+name: OAuth Custom Grant
+description: 'Provide a custom grant type'
+type: module
+core: 8.x
+package: custom
+dependencies:
+  - rest

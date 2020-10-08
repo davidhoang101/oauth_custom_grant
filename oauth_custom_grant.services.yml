@@ -1,0 +1,4 @@
+services:
+  oauth_custom_grant.repositories.user:
+    class: Drupal\oauth_custom_grant\Repositories\UserRepository
+    arguments: ['@user.auth']
